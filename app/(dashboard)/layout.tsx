@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Sidebar />
 
         {/* Main content area */}
-        <div className="flex-1 md:ml-64"> {/* md:ml-64 ensures offset only on larger screens */}
+        <div className="flex-1 md:ml-64 "> {/* md:ml-64 ensures offset only on larger screens */}
           <main className="flex-1 p-6 mt-4 overflow-auto">
             <div className="max-h-full overflow-y-auto">{children}</div>
           </main>
